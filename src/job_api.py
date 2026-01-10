@@ -20,7 +20,7 @@ def fetch_linkedin_jobs(search_query, location="Germany", rows=60):
     jobs = list(apify_client.dataset(run["defaultDatasetId"]).iterate_items())
     return jobs
 
-def fetch_indeed_jobs(search_query, location="Germany", rows=60):
+def fetch_indeed_jobs(search_query, location="Germany", rows=70):
     run_input = {
         "title": search_query,
         "location": location,
