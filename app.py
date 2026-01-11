@@ -66,8 +66,17 @@ if file_upload:
         st.success(f"Extracted Job Keywords: \n{search_keywords_clean}")
 
         with st.spinner("Fetching jobs from LinkedIn and Indeed..."):
-            linked_jobs = fetch_linkedin_jobs(search_keywords_clean, rows=80)
-            indeed_jobs = fetch_indeed_jobs(search_keywords_clean, rows=60)
+            try:
+                linked_jobs = fetch_linkedin_jobs(search_keywords_clean, rows=80)
+            except Exception as e:
+                st.error(f"Failed to fetch LinkedIn jobs: {e}")
+                linked_jobs = []
+
+            try:
+                indeed_jobs = fetch_indeed_jobs(search_keywords_clean, rows=60)
+            except Exception as e:
+                st.error(f"Failed to fetch Indeed jobs: {e}")
+                indeed_jobs = []
 
         # LinkedIn Jobs
         st.markdown("---")
