@@ -35,7 +35,7 @@ def fetch_indeed_jobs(search_query, location="Germany", rows=50):
     }
 
     # Replace this once you give me your Indeed actor ID
-    run = apify_client.actor("REPLACE_WITH_INDEED_ACTOR_ID").call(run_input=run_input)
+    run = apify_client.actor("hMvNSpz3JnHgl5jkh").call(run_input=run_input)
     jobs = list(apify_client.dataset(run["defaultDatasetId"]).iterate_items())
     return jobs
 
