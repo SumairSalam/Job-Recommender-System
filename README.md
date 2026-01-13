@@ -85,6 +85,21 @@ README.md
 
 ---
 
+##  Screenshots
+
+Below are sequential screenshots of the app (click an image to view the full version):
+
+1. ![Screenshot 1](screenshots/1.png)
+2. ![Screenshot 2](screenshots/2.png)
+3. ![Screenshot 3](screenshots/3.png)
+4. ![Screenshot 4](screenshots/4.png)
+5. ![Screenshot 5](screenshots/5.png)
+6. ![Screenshot 6](screenshots/6.png)
+7. ![Screenshot 7](screenshots/7.png)
+8. ![Screenshot 8](screenshots/8.png)
+
+---
+
 ##  Notes & Troubleshooting
 
 - Groq/Llama: verify your model name, rate limits and accounts for cost and quotas.
