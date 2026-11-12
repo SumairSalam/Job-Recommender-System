@@ -1,3 +1,8 @@
+"""
+Inspect Apify client and actor interfaces for troubleshooting.
+Display available attributes and retrieve LinkedIn scraper metadata.
+"""
+
 from dotenv import load_dotenv
 import os
 from apify_client import ApifyClient
