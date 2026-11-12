@@ -1,3 +1,9 @@
+"""
+Retrieve LinkedIn and Indeed job listings through Apify actors.
+Build search inputs from keywords, location, and result limits,
+then return records from each actor run's output dataset.
+"""
+
 
 import os
 from apify_client import ApifyClient
