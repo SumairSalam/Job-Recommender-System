@@ -1,3 +1,9 @@
+"""
+Extract text from PDF resumes using PyMuPDF.
+Load Groq credentials and provide chat completions for resume analysis,
+career guidance, and job-search keyword generation.
+"""
+
 import fitz
 import os
 from dotenv import load_dotenv
