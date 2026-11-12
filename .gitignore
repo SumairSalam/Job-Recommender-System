@@ -9,3 +9,7 @@ wheels/
 # Virtual environments
 .venv
 .env
+
+# Local environment overrides; allow a credential-free example
+.env.*
+!.env.example
