@@ -4,3 +4,6 @@ pypdf
 python-dotenv
 langchain
 apify-client
+groq
+pymupdf
+mcp[cli]
