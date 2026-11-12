@@ -1,3 +1,9 @@
+"""
+Provide the Streamlit interface for PDF resume analysis and job discovery.
+Display resume summaries, skill gaps, and career roadmaps generated with
+Groq, then retrieve LinkedIn and Indeed listings through Apify.
+"""
+
 import streamlit as st
 from src.helper import extract_text_from_pdf, ask_openai
 from src.job_api import fetch_indeed_jobs, fetch_linkedin_jobs
