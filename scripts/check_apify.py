@@ -1,3 +1,8 @@
+"""
+Check Apify token presence and access to configured scraper actors.
+Report actor lookup results and errors for setup troubleshooting.
+"""
+
 from dotenv import load_dotenv
 import os
 from apify_client import ApifyClient
