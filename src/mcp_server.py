@@ -1,3 +1,8 @@
+"""
+Provide a package-level FastMCP server for job retrieval.
+Expose LinkedIn and Indeed keyword searches over stdio.
+"""
+
 import sys
 import os
 
