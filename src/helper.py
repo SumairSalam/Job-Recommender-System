@@ -27,6 +27,6 @@ def ask_openai(prompt, max_tokens=500):
         model="llama-3.1-8b-instant",
         messages=[{"role": "user", "content": prompt}],
         max_tokens=max_tokens,
-        temperature=0.4
+        temperature=0.8
     )
     return response.choices[0].message.content
