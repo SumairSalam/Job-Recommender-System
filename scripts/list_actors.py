@@ -1,3 +1,8 @@
+"""
+Inspect actors accessible through the configured Apify token.
+List actor information and check candidate job scraper actors.
+"""
+
 from dotenv import load_dotenv
 import os
 from apify_client import ApifyClient
