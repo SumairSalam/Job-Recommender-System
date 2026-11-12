@@ -1,3 +1,8 @@
+"""
+Expose LinkedIn and Indeed keyword searches as FastMCP tools.
+Delegate retrieval to src.job_api and serve requests over stdio.
+"""
+
 import sys
 import os
 
